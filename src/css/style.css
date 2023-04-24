@@ -30,11 +30,15 @@ section {
 }
 
 .custom-col-1 {
-    margin-top: 10%;
+    margin-top: 15%;
 }
 
 .custom-col-2 {
     margin-top: 10%;
+}
+
+.custom-col-3 {
+    margin-top: 20%;
 }
 
 .custom-col-2 .progress{
@@ -42,6 +46,9 @@ section {
     height: 4rem;
     font-size: 16px;
     color: #000;
+}
+.mob-col-1{
+    margin-top: 15%;
 }
 
 i {
@@ -108,3 +115,18 @@ timeline-icon i{
     text-align: center;
     margin-bottom: 20px;
 }
+
+@media only screen and (max-width: 420px) {
+    .my-4 {
+        margin-top: 40.5rem!important;
+    }
+    .mob-col-1 {
+        margin-top: 55%!important;
+    }
+    .mob-col-2 {
+        margin-top: 155%!important;
+    }
+    .custom-col-3 {
+        margin-top: 470%;
+    }
+  }
